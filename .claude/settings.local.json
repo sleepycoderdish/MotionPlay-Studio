@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import cv2; print\\('cv2', cv2.__version__\\)\")",
+      "Bash(python -c \"import mediapipe; print\\('mediapipe', mediapipe.__version__\\)\")",
+      "Bash(python -c \"import numpy; print\\('numpy', numpy.__version__\\)\")",
+      "Bash(pip index *)",
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(python -m py_compile main.py engine/*.py)",
+      "Bash(python -c ' *)",
+      "Bash(curl -sI -m 15 \"https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task\")",
+      "Bash(tasklist //FI \"IMAGENAME eq python.exe\" //V)",
+      "Bash(taskkill //PID 3448 //F)",
+      "Bash(taskkill //PID 4572 //F)",
+      "Bash(taskkill //PID 15272 //F)"
+    ]
+  }
+}
