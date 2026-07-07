@@ -8,4 +8,6 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
+# MotionPlay Studio -- downloaded model bundle (fetched on first run)
+assets/models/
 
