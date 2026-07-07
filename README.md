@@ -4,11 +4,6 @@ A polished, gesture-controlled arcade air hockey game. Move your hand in front o
 your webcam to steer your paddle -- no mouse, no keyboard, no color-marker
 gloves required. Built with Python, OpenCV and MediaPipe Hands.
 
-![MotionPlay Studio main menu](docs/screenshot-main-menu.png)
-*(screenshot placeholder -- add your own capture of the main menu here)*
-
-![MotionPlay Studio gameplay](docs/screenshot-gameplay.png)
-*(screenshot placeholder -- add a capture of a match in the Neon Arena here)*
 
 ## Features
 
